@@ -1,6 +1,8 @@
 import React from 'react';
 import './TodoListTemplate.css';
 
+//함수형 컴포넌트
+
 const TodoListTemplate = ({form,children}) => {
     return (
         <main className="todo-list-template">
